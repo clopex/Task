@@ -1,0 +1,6 @@
+framework module Pods_AntColony_AntColonyUITests {
+  umbrella header "Pods-AntColony-AntColonyUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

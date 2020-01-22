@@ -1,0 +1,6 @@
+framework module Pods_AntColony {
+  umbrella header "Pods-AntColony-umbrella.h"
+
+  export *
+  module * { export * }
+}

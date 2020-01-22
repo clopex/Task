@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,21 @@
 		0EB5020A23C8CBA300244276 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EB5020823C8CBA300244276 /* LaunchScreen.storyboard */; };
 		0EB5021523C8CBA300244276 /* AntColonyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB5021423C8CBA300244276 /* AntColonyTests.swift */; };
 		0EB5022023C8CBA300244276 /* AntColonyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB5021F23C8CBA300244276 /* AntColonyUITests.swift */; };
+		0EB5023223C9B55D00244276 /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB5023123C9B55C00244276 /* FirebaseManager.swift */; };
+		0EB5023823C9D58C00244276 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB5023723C9D58C00244276 /* UIViewExt.swift */; };
+		0EB5023A23C9DC3800244276 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB5023923C9DC3800244276 /* SignUpViewController.swift */; };
+		0EB5023C23C9DE5900244276 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB5023B23C9DE5900244276 /* Util.swift */; };
+		0EB5023E23C9E08500244276 /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB5023D23C9E08500244276 /* UIViewControllerExt.swift */; };
+		0EB5024023C9E0E500244276 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB5023F23C9E0E500244276 /* SignInViewController.swift */; };
+		0EB5024223C9F61100244276 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB5024123C9F61100244276 /* FeedViewController.swift */; };
+		0EB5024523CA364300244276 /* FeddCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB5024323CA364300244276 /* FeddCell.swift */; };
+		0EB5024623CA364300244276 /* FeddCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0EB5024423CA364300244276 /* FeddCell.xib */; };
+		0EB5024823CA386900244276 /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB5024723CA386900244276 /* Feed.swift */; };
+		0EB5024A23CA512900244276 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB5024923CA512900244276 /* PostViewController.swift */; };
+		0EB5024E23CB04B000244276 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0EB5024D23CB04B000244276 /* GoogleService-Info.plist */; };
+		8BE2F5A062B33EE98DC45E1A /* Pods_AntColonyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D669B2F8917D34AD37A34FE0 /* Pods_AntColonyTests.framework */; };
+		8C206CC073AB23546BA0E49B /* Pods_AntColony_AntColonyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CF586D536550CD8D8AAAD44 /* Pods_AntColony_AntColonyUITests.framework */; };
+		FE28A353E9583A60ED939E28 /* Pods_AntColony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E827E0BA4653136526CB8C6 /* Pods_AntColony.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +62,27 @@
 		0EB5021B23C8CBA300244276 /* AntColonyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AntColonyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EB5021F23C8CBA300244276 /* AntColonyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AntColonyUITests.swift; sourceTree = "<group>"; };
 		0EB5022123C8CBA300244276 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EB5023123C9B55C00244276 /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
+		0EB5023723C9D58C00244276 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		0EB5023923C9DC3800244276 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		0EB5023B23C9DE5900244276 /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		0EB5023D23C9E08500244276 /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
+		0EB5023F23C9E0E500244276 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		0EB5024123C9F61100244276 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		0EB5024323CA364300244276 /* FeddCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeddCell.swift; sourceTree = "<group>"; };
+		0EB5024423CA364300244276 /* FeddCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeddCell.xib; sourceTree = "<group>"; };
+		0EB5024723CA386900244276 /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
+		0EB5024923CA512900244276 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		0EB5024D23CB04B000244276 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2CF586D536550CD8D8AAAD44 /* Pods_AntColony_AntColonyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AntColony_AntColonyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CFF00F7DB0310BF8C32959A /* Pods-AntColony.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AntColony.release.xcconfig"; path = "Target Support Files/Pods-AntColony/Pods-AntColony.release.xcconfig"; sourceTree = "<group>"; };
+		3E827E0BA4653136526CB8C6 /* Pods_AntColony.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AntColony.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BA489D416881F0A2626E9DB /* Pods-AntColonyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AntColonyTests.release.xcconfig"; path = "Target Support Files/Pods-AntColonyTests/Pods-AntColonyTests.release.xcconfig"; sourceTree = "<group>"; };
+		4C684443A3EC19C16EBA1513 /* Pods-AntColony.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AntColony.debug.xcconfig"; path = "Target Support Files/Pods-AntColony/Pods-AntColony.debug.xcconfig"; sourceTree = "<group>"; };
+		5F06D3390D9FB176669115E1 /* Pods-AntColonyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AntColonyTests.debug.xcconfig"; path = "Target Support Files/Pods-AntColonyTests/Pods-AntColonyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7FCF10E61FF20C6C3E14A442 /* Pods-AntColony-AntColonyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AntColony-AntColonyUITests.debug.xcconfig"; path = "Target Support Files/Pods-AntColony-AntColonyUITests/Pods-AntColony-AntColonyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D669B2F8917D34AD37A34FE0 /* Pods_AntColonyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AntColonyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3052C6C1A5F8355F6C1E9FD /* Pods-AntColony-AntColonyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AntColony-AntColonyUITests.release.xcconfig"; path = "Target Support Files/Pods-AntColony-AntColonyUITests/Pods-AntColony-AntColonyUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE28A353E9583A60ED939E28 /* Pods_AntColony.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BE2F5A062B33EE98DC45E1A /* Pods_AntColonyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C206CC073AB23546BA0E49B /* Pods_AntColony_AntColonyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +120,8 @@
 				0EB5021323C8CBA300244276 /* AntColonyTests */,
 				0EB5021E23C8CBA300244276 /* AntColonyUITests */,
 				0EB501FD23C8CBA100244276 /* Products */,
+				DD4F2F3C0628472701666AF9 /* Pods */,
+				EFFAF75C96FF46577FE382F2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +138,18 @@
 		0EB501FE23C8CBA100244276 /* AntColony */ = {
 			isa = PBXGroup;
 			children = (
+				0EB5023623C9D51F00244276 /* Extensions */,
+				0EB5023023C9B53800244276 /* Helper */,
+				0EB5022F23C9B51D00244276 /* Cell */,
+				0EB5022E23C9B4DD00244276 /* ViewController */,
+				0EB5022D23C9B4CC00244276 /* Model */,
 				0EB501FF23C8CBA100244276 /* AppDelegate.swift */,
 				0EB5020123C8CBA100244276 /* ViewController.swift */,
 				0EB5020323C8CBA100244276 /* Main.storyboard */,
-				0EB5020623C8CBA300244276 /* Assets.xcassets */,
 				0EB5020823C8CBA300244276 /* LaunchScreen.storyboard */,
+				0EB5020623C8CBA300244276 /* Assets.xcassets */,
 				0EB5020B23C8CBA300244276 /* Info.plist */,
+				0EB5024D23CB04B000244276 /* GoogleService-Info.plist */,
 			);
 			path = AntColony;
 			sourceTree = "<group>";
@@ -125,6 +172,75 @@
 			path = AntColonyUITests;
 			sourceTree = "<group>";
 		};
+		0EB5022D23C9B4CC00244276 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0EB5024723CA386900244276 /* Feed.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0EB5022E23C9B4DD00244276 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0EB5023923C9DC3800244276 /* SignUpViewController.swift */,
+				0EB5023F23C9E0E500244276 /* SignInViewController.swift */,
+				0EB5024123C9F61100244276 /* FeedViewController.swift */,
+				0EB5024923CA512900244276 /* PostViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		0EB5022F23C9B51D00244276 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				0EB5024323CA364300244276 /* FeddCell.swift */,
+				0EB5024423CA364300244276 /* FeddCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		0EB5023023C9B53800244276 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				0EB5023123C9B55C00244276 /* FirebaseManager.swift */,
+				0EB5023B23C9DE5900244276 /* Util.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		0EB5023623C9D51F00244276 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0EB5023723C9D58C00244276 /* UIViewExt.swift */,
+				0EB5023D23C9E08500244276 /* UIViewControllerExt.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DD4F2F3C0628472701666AF9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4C684443A3EC19C16EBA1513 /* Pods-AntColony.debug.xcconfig */,
+				3CFF00F7DB0310BF8C32959A /* Pods-AntColony.release.xcconfig */,
+				7FCF10E61FF20C6C3E14A442 /* Pods-AntColony-AntColonyUITests.debug.xcconfig */,
+				F3052C6C1A5F8355F6C1E9FD /* Pods-AntColony-AntColonyUITests.release.xcconfig */,
+				5F06D3390D9FB176669115E1 /* Pods-AntColonyTests.debug.xcconfig */,
+				4BA489D416881F0A2626E9DB /* Pods-AntColonyTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EFFAF75C96FF46577FE382F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E827E0BA4653136526CB8C6 /* Pods_AntColony.framework */,
+				2CF586D536550CD8D8AAAD44 /* Pods_AntColony_AntColonyUITests.framework */,
+				D669B2F8917D34AD37A34FE0 /* Pods_AntColonyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +248,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0EB5022423C8CBA300244276 /* Build configuration list for PBXNativeTarget "AntColony" */;
 			buildPhases = (
+				65629F9FDBD72A605CE6A24B /* [CP] Check Pods Manifest.lock */,
 				0EB501F823C8CBA100244276 /* Sources */,
 				0EB501F923C8CBA100244276 /* Frameworks */,
 				0EB501FA23C8CBA100244276 /* Resources */,
+				D42583E5DDE4CA104CDD28C6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +267,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0EB5022723C8CBA300244276 /* Build configuration list for PBXNativeTarget "AntColonyTests" */;
 			buildPhases = (
+				B4DDA04DF66C76447527ED0E /* [CP] Check Pods Manifest.lock */,
 				0EB5020C23C8CBA300244276 /* Sources */,
 				0EB5020D23C8CBA300244276 /* Frameworks */,
 				0EB5020E23C8CBA300244276 /* Resources */,
@@ -167,9 +286,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0EB5022A23C8CBA300244276 /* Build configuration list for PBXNativeTarget "AntColonyUITests" */;
 			buildPhases = (
+				77AD512045CCD02FC1D0B419 /* [CP] Check Pods Manifest.lock */,
 				0EB5021723C8CBA300244276 /* Sources */,
 				0EB5021823C8CBA300244276 /* Frameworks */,
 				0EB5021923C8CBA300244276 /* Resources */,
+				78B6FFF57019E13881A0B30C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -229,7 +350,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EB5024623CA364300244276 /* FeddCell.xib in Resources */,
 				0EB5020A23C8CBA300244276 /* LaunchScreen.storyboard in Resources */,
+				0EB5024E23CB04B000244276 /* GoogleService-Info.plist in Resources */,
 				0EB5020723C8CBA300244276 /* Assets.xcassets in Resources */,
 				0EB5020523C8CBA100244276 /* Main.storyboard in Resources */,
 			);
@@ -251,13 +374,126 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		65629F9FDBD72A605CE6A24B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AntColony-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77AD512045CCD02FC1D0B419 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AntColony-AntColonyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78B6FFF57019E13881A0B30C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AntColony-AntColonyUITests/Pods-AntColony-AntColonyUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AntColony-AntColonyUITests/Pods-AntColony-AntColonyUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AntColony-AntColonyUITests/Pods-AntColony-AntColonyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4DDA04DF66C76447527ED0E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AntColonyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D42583E5DDE4CA104CDD28C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AntColony/Pods-AntColony-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AntColony/Pods-AntColony-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AntColony/Pods-AntColony-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0EB501F823C8CBA100244276 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EB5024A23CA512900244276 /* PostViewController.swift in Sources */,
+				0EB5023823C9D58C00244276 /* UIViewExt.swift in Sources */,
+				0EB5024223C9F61100244276 /* FeedViewController.swift in Sources */,
+				0EB5024523CA364300244276 /* FeddCell.swift in Sources */,
+				0EB5023C23C9DE5900244276 /* Util.swift in Sources */,
+				0EB5024823CA386900244276 /* Feed.swift in Sources */,
+				0EB5023223C9B55D00244276 /* FirebaseManager.swift in Sources */,
 				0EB5020223C8CBA100244276 /* ViewController.swift in Sources */,
+				0EB5024023C9E0E500244276 /* SignInViewController.swift in Sources */,
 				0EB5020023C8CBA100244276 /* AppDelegate.swift in Sources */,
+				0EB5023E23C9E08500244276 /* UIViewControllerExt.swift in Sources */,
+				0EB5023A23C9DC3800244276 /* SignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +666,7 @@
 		};
 		0EB5022523C8CBA300244276 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C684443A3EC19C16EBA1513 /* Pods-AntColony.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +685,7 @@
 		};
 		0EB5022623C8CBA300244276 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CFF00F7DB0310BF8C32959A /* Pods-AntColony.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +704,7 @@
 		};
 		0EB5022823C8CBA300244276 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F06D3390D9FB176669115E1 /* Pods-AntColonyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +726,7 @@
 		};
 		0EB5022923C8CBA300244276 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BA489D416881F0A2626E9DB /* Pods-AntColonyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +748,7 @@
 		};
 		0EB5022B23C8CBA300244276 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FCF10E61FF20C6C3E14A442 /* Pods-AntColony-AntColonyUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +769,7 @@
 		};
 		0EB5022C23C8CBA300244276 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3052C6C1A5F8355F6C1E9FD /* Pods-AntColony-AntColonyUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
